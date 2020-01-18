@@ -1,7 +1,12 @@
 # Javascript-Calculator
 
-Simple JS calculator.
 Javascript exercise.
 
-Technolgies used in this project:
+
+<h4>Technologies used in this project:</h4>
+<ul>
+<li>Html5</li>
+<li>CSS3</li>
+<li>Javascript</li>
+</ul>
 
