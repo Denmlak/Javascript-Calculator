@@ -72,9 +72,10 @@ const calculate= () =>{
 	}
 	oldNum = parseFloat(oldNum);
     currentNum = parseFloat(currentNum);
+
 	switch(currentOperator){
 		case '+':
-		if (!currentNum) {
+		if (!currentNum && currentNum !== 0) {
 			result= oldNum + oldNum;
 		}
 		else{
@@ -82,7 +83,7 @@ const calculate= () =>{
 		}
 		break;
 		case '-':
-			if (!currentNum) {
+			if (!currentNum && currentNum !== 0) {
 			result= oldNum - oldNum;
 		}
 		else{
@@ -90,7 +91,7 @@ const calculate= () =>{
 		}
 		break;
 		case '*':
-			if (!currentNum) {
+			if (!currentNum && currentNum !== 0) {
 			result= oldNum * oldNum;
 		}
 		else{
@@ -98,7 +99,7 @@ const calculate= () =>{
 		}
 		break;
 		case '÷':
-			if (!currentNum) {
+			if (!currentNum && currentNum !== 0) {
 			result= oldNum / oldNum;
 		}
 		else{
